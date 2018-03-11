@@ -66,3 +66,267 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
+
+/* line 9, ../sass/style.scss */
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 9px;
+  font-family: arial;
+}
+
+/* line 15, ../sass/style.scss */
+.top_header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+/* line 24, ../sass/style.scss */
+.logo {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+/* line 29, ../sass/style.scss */
+.city_code {
+  font-size: 22.7px;
+  font-style: italic;
+}
+
+/* line 33, ../sass/style.scss */
+.main_number {
+  font-size: 34.15px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 38, ../sass/style.scss */
+.call_back {
+  font-size: 13px;
+  color: #105a8f;
+  font-style: italic;
+  text-decoration: none;
+  border-bottom: 1px dashed #105a8f;
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+/* line 47, ../sass/style.scss */
+.search {
+  position: relative;
+  margin-top: 19px;
+  width: 321px;
+  height: 25px;
+  background: url(img/search_field.png);
+}
+
+/* line 54, ../sass/style.scss */
+.search input {
+  outline: none;
+  border: none;
+}
+
+/* line 58, ../sass/style.scss */
+.search input[type="text"] {
+  position: absolute;
+  width: 250px;
+  top: 5px;
+  left: 15px;
+}
+
+/* line 64, ../sass/style.scss */
+.search input[type="button"] {
+  background: url(img/search_button.png) 100% 100% no-repeat;
+  width: 55px;
+  height: 20px;
+  float: right;
+  position: absolute;
+  top: 3px;
+  right: 1px;
+  cursor: pointer;
+}
+
+/* line 74, ../sass/style.scss */
+.search input[type="button"]:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  outline: none;
+}
+
+/* line 79, ../sass/style.scss */
+.search input[type="button"]:focus {
+  opacity: 1;
+  cursor: pointer;
+  outline: none;
+}
+
+/* line 84, ../sass/style.scss */
+.search input[type="button"]:active {
+  opacity: 0.9;
+  cursor: pointer;
+  outline: none;
+}
+
+/* line 89, ../sass/style.scss */
+.online_help input[type="button"] {
+  background: url(img/online_help.png) 100% 100% no-repeat;
+  width: 100px;
+  height: 100px;
+  border: none;
+  margin-top: -8px;
+}
+
+/* line 96, ../sass/style.scss */
+.online_help input[type="button"]:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  outline: none;
+}
+
+/* line 101, ../sass/style.scss */
+.online_help input[type="button"]:focus {
+  opacity: 1;
+  cursor: pointer;
+  outline: none;
+}
+
+/* line 106, ../sass/style.scss */
+.online_help input[type="button"]:active {
+  opacity: 0.9;
+  cursor: pointer;
+  outline: none;
+}
+
+/* line 111, ../sass/style.scss */
+.enter img {
+  vertical-align: bottom;
+}
+
+/* line 114, ../sass/style.scss */
+.enter a {
+  font-size: 13px;
+  color: #105a8f;
+  font-style: italic;
+  text-decoration: none;
+  border-bottom: 1px dashed #105a8f;
+  margin-left: 10px;
+  display: inline-block;
+  line-height: 1.3s;
+}
+
+/* line 124, ../sass/style.scss */
+.basket {
+  width: 208px;
+  height: 55px;
+  border: 1px solid #cecdcd;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-top: 16px;
+}
+
+/* line 132, ../sass/style.scss */
+.main_basket {
+  width: 165px;
+  height: 55px;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0 0 0 5px;
+  float: left;
+  cursor: pointer;
+}
+/* line 141, ../sass/style.scss */
+.main_basket span {
+  font-size: 23px;
+  font-style: italic;
+  border-bottom: 2px solid #45749f;
+  color: #105a8f;
+  vertical-align: bottom;
+  font-weight: 900;
+  display: inline-block;
+  margin: 0 0 6px 7px;
+  font-family: arial;
+}
+
+/* line 153, ../sass/style.scss */
+.main_basket:hover {
+  opacity: 0.9;
+}
+
+/* line 156, ../sass/style.scss */
+.main_basket:focus {
+  opacity: 1;
+  outline: none;
+}
+
+/* line 160, ../sass/style.scss */
+.main_basket:active {
+  opacity: 0.9;
+  outline: none;
+}
+
+/* line 164, ../sass/style.scss */
+.drop_basket {
+  float: right;
+  width: 38px;
+  height: 55px;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  position: relative;
+}
+/* line 173, ../sass/style.scss */
+.drop_basket img {
+  padding-top: 5px;
+}
+/* line 176, ../sass/style.scss */
+.drop_basket ul {
+  position: absolute;
+  top: 100%;
+  width: 208px;
+  left: -171px;
+  display: none;
+}
+/* line 182, ../sass/style.scss */
+.drop_basket ul li {
+  height: 50px;
+  padding-top: 5px;
+}
+
+/* line 188, ../sass/style.scss */
+.drop_basket:hover ul {
+  display: block;
+  opacity: 0.9;
+  border: 1px solid #cecdcd;
+}
+/* line 192, ../sass/style.scss */
+.drop_basket:hover ul li {
+  border-bottom: 1px solid #cecdcd;
+  font-size: 23px;
+  font-style: italic;
+  vertical-align: bottom;
+  font-weight: 600;
+  font-family: arial;
+}
+/* line 199, ../sass/style.scss */
+.drop_basket:hover ul li a {
+  text-decoration: none;
+  color: #105a8f;
+}
+
+/* line 205, ../sass/style.scss */
+.drop_basket:focus {
+  outline: none;
+}
+
+/* line 208, ../sass/style.scss */
+.drop_basket:active {
+  outline: none;
+}
