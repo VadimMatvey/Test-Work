@@ -694,3 +694,53 @@ main {
 .shares_button:hover {
   opacity: 0.8;
 }
+
+/* line 523, ../sass/style.scss */
+.second_article {
+  margin: 0 0 30px 0;
+}
+/* line 525, ../sass/style.scss */
+.second_article input, .second_article div {
+  display: none;
+}
+/* line 528, ../sass/style.scss */
+.second_article label {
+  font-family: arial;
+  font-size: 18px;
+  color: #105a8f;
+  border-bottom: 1px dashed #105a8f;
+  font-style: italic;
+  font-weight: 900;
+  margin-right: 30px;
+}
+/* line 537, ../sass/style.scss */
+.second_article input[type="radio"]:checked + label {
+  border: 1px solid #689cbe;
+  border-bottom: none;
+  border-radius: 5px 5px 0 0;
+  padding: 10px 25px 10px 20px;
+  font-size: 20px;
+  color: #d10000;
+  background: linear-gradient(to top, #fefdfd, #eeeeee, #f9f9f9);
+}
+/* line 546, ../sass/style.scss */
+.second_article input[type="radio"]:hover + label {
+  border-bottom: none;
+}
+
+/* line 550, ../sass/style.scss */
+.second_article > input:nth-of-type(1):checked ~ div:nth-of-type(1),
+.second_article > input:nth-of-type(2):checked ~ div:nth-of-type(2),
+.second_article > input:nth-of-type(3):checked ~ div:nth-of-type(3),
+.second_article > input:nth-of-type(4):checked ~ div:nth-of-type(4) {
+  display: block;
+}
+
+/* line 556, ../sass/style.scss */
+.tab {
+  height: 328px;
+  width: 1178px;
+  border: 1px solid #689cbe;
+  margin-top: 12px;
+  border-radius: 0 5px 5px 5px;
+}
