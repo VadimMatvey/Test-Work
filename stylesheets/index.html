@@ -57,24 +57,25 @@
 	</header>
 	<nav>
 		<ul>
-			<li><a href="#" class="nav_first_child"><span>ПК и Сервисы <br>Prime PC</span><img src="img/nav_arrow.png" alt=""></a></li>
-			<li><a href="#"><span>Компьютеры<br>и периферия</span><img src="img/nav_arrow.png" alt=""></a></li>
-			<li><a href="#"><span>Програмное обеспечение</span><img src="img/nav_arrow.png" alt=""></a></li>
-			<li><a href="#"><span>Сети и теле- <br>коммуникации</span><img src="img/nav_arrow.png" alt=""></a></li>
-			<li><a href="#"><span>Системы безопастности</span><img src="img/nav_arrow.png" alt=""></a></li>
-			<li><a href="#" class="nav_last_child"><span>Бесперебойная работа</span><img src="img/nav_arrow.png" alt=""></a></li>
+			<li><a href="#" class="nav_first_child nav_menu"><span>ПК и Сервисы <br>Prime PC</span><img src="img/nav_arrow.png" alt=""></a></li>
+			<li><a href="#" class="nav_menu"><span>Компьютеры<br>и периферия</span><img src="img/nav_arrow.png" alt=""></a></li>
+			<li><a href="#" class="nav_menu"><span>Програмное <br>обеспечение</span><img src="img/nav_arrow.png" alt=""></a></li>
+			<li><a href="#" class="nav_menu"><span>Сети и теле- <br>коммуникации</span><img src="img/nav_arrow.png" alt=""></a></li>
+			<li><a href="#" class="nav_menu"><span>Системы <br>безопастности</span><img src="img/nav_arrow.png" alt=""></a></li>
+			<li><a href="#" class="nav_last_child nav_menu"><span>Бесперебойная <br>работа</span><img src="img/nav_arrow.png" alt=""></a></li>
 		</ul>
 	</nav>
 	<main>
 		<article class="first_article">
 			<div class="first_slider">
-				<div class="slider_1">
-					<div id="content_inner_1">
-					<div id="content_inner_2">
-					<div id="content_inner_3">
-					<div id="content_inner_4">
-					<div id="content_inner_5">
-					<div id="content_inner">
+				<div class="slider_1">	
+					<input checked type="radio" name="first_slider" id="slide_1">
+					<input type="radio" name="first_slider" id="slide_2">
+					<input type="radio" name="first_slider" id="slide_3">
+					<input type="radio" name="first_slider" id="slide_4">
+					<input type="radio" name="first_slider" id="slide_5">
+					
+					<div id="slides">
 						<div class="page_slider_1" id="page_slider_1">
 							<div>
 								<h1>Слайд 1 <br>Cisco Catalyst Switches</h1>
@@ -111,19 +112,16 @@
 							</div>
 						</div>
 					</div>
+
+					<div id="active">
+					<label for="slide_1">1</label>
+					<label for="slide_2">2</label>
+					<label for="slide_3">3</label>
+					<label for="slide_4">4</label>
+					<label for="slide_5">5</label>
 					</div>
-					</div>
-					</div>
-					</div>
-					</div>
+
 				</div>
-				<ul class="button_slider">
-					<li class="button" id="button_1"><a href="#content_inner_1">1</a></li>
-					<li class="button" id="button_2"><a href="#content_inner_2">2</a></li>
-					<li class="button" id="button_3"><a href="#content_inner_3">3</a></li>
-					<li class="button" id="button_4"><a href="#content_inner_4">4</a></li>
-					<li class="button" id="button_5"><a href="#content_inner_5">5</a></li>
-				</ul>
 			</div>
 			<div class="shares">
 				<span class="shares_caption">Акции</span>
@@ -152,17 +150,145 @@
 			</div>
 		</article>
 		<article class="second_article">
-			<input checked type="radio" id="vkl1" name="second_slider">
-				<label for="vkl1">Спецпредлождения</label>
-			<input type="radio" id="vkl2" name="second_slider">
-				<label for="vkl2">Бестселлеры</label>
-			<input type="radio" id="vkl3" name="second_slider">
-				<label for="vkl3">Новинки</label>
-			<input type="radio" id="vkl4" name="second_slider">
-				<label for="vkl4">Скоро в продаже</label>
-				<div class="tab_1 tab">
-					
-				</div>
+			<input checked type="radio" id="tab_1" name="second_slider">
+				<label for="tab_1">Спецпредлождения</label>
+			<input type="radio" id="tab_2" name="second_slider">
+				<label for="tab_2">Бестселлеры</label>
+			<input type="radio" id="tab_3" name="second_slider">
+				<label for="tab_3">Новинки</label>
+			<input type="radio" id="tab_4" name="second_slider">
+				<label for="tab_4">Скоро в продаже</label>
+				<div class="tab">
+					<button class="special_offer"></button>
+					<div id="slider_1">
+						<input checked type="radio" name="product_tab_1" id="product_tab_1_1">
+						<input type="radio" name="product_tab_1" id="product_tab_1_2">
+						<input type="radio" name="product_tab_1" id="product_tab_1_3">
+						<input type="radio" name="product_tab_1" id="product_tab_1_4">
+						<input type="radio" name="product_tab_1" id="product_tab_1_5">
+						<input type="radio" name="product_tab_1" id="product_tab_1_6">
+						<input type="radio" name="product_tab_1" id="product_tab_1_7">
+						<input type="radio" name="product_tab_1" id="product_tab_1_8">
+						<input type="radio" name="product_tab_1" id="product_tab_1_9">
+						<input type="radio" name="product_tab_1" id="product_tab_1_10">
+						<div class="controls_tab_1">
+							<label for="product_tab_1_1"></label>
+							<label for="product_tab_1_2"></label>
+							<label for="product_tab_1_3"></label>
+							<label for="product_tab_1_4"></label>
+							<label for="product_tab_1_5"></label>
+							<label for="product_tab_1_6"></label>
+							<label for="product_tab_1_7"></label>
+							<label for="product_tab_1_8"></label>
+							<label for="product_tab_1_9"></label>
+							<label for="product_tab_1_10"></label>
+						</div>
+						<div id="overflow_1">
+							<div class="articles_tab_1">
+								<article class="product">
+									<div class="product_width">
+										<img src="img/tab_1_img_1.png" alt="">
+										<p class="stock_description">+ в подарок мышка и стильная сумка</p>
+										<a href="#" class="product_name">Asus ee PC 1015PE White</a>
+										<p class="old_price"></p>
+										<button class="product_price"><b>6 257 </b><span>грн.</span></button>
+										<p class="currency">756 $</p>
+									</div>
+								</article>
+								<article class="product">
+									<div class="product_width">
+										<img src="img/tab_1_img_2.png" alt="">
+										<p class="stock_description">Уникальное снижение цены на винчестер 200 GB!</p>
+										<a href="#" class="product_name">Samsung HD203WI</a>
+										<p class="old_price">754 грн.</p>
+										<button class="product_price"><b>599 </b><span>грн.</span></button>
+										<p class="currency">86 $</p>
+									</div>
+								</article>
+								<article class="product">
+									<div class="product_width">
+										<img src="img/tab_1_img_3.png" alt="">
+										<p class="stock_description">При покурке 5 камер и более - скидка 10%</p>
+										<a href="#" class="product_name">Vision Hi-Tech VB60CSHR</a>
+										<p class="old_price">1 754 грн.</p>
+										<button class="product_price"><b>1 599 </b><span>грн.</span></button>
+										<p class="currency">206 $</p>
+									</div>
+								</article>
+								<article class="product">
+									<div class="product_width">
+										<img src="img/tab_1_img_4.png" alt="">
+										<p class="stock_description">По европейской цене!</p>
+										<a href="#" class="product_name">Apple iMac 27" (Z0GF)</a>
+										<p class="old_price">24 754 грн.</p>
+										<button class="product_price"><b>23 399 </b><span>грн.</span></button>
+										<p class="currency">3 049 $</p>
+									</div>	
+								</article>
+								<article class="product">
+									<div class="product_width">
+										<img src="img/tab_1_img_5.png" alt="">
+										<p class="stock_description">Скидка 25%</p>
+										<a href="#" class="product_name">Видеокарта MSI N9800GT</a>
+										<p class="old_price">1 754 грн.</p>
+										<button class="product_price"><b>1 434 </b><span>грн.</span></button>
+										<p class="currency">246 $</p>
+									</div>
+								</article>
+								<article class="product">
+									<div class="product_width">
+										<img src="img/tab_1_img_1.png" alt="">
+										<p class="stock_description">+ в подарок мышка и стильная сумка</p>
+										<a href="#" class="product_name">Asus ee PC 1015PE White</a>
+										<p class="old_price"></p>
+										<button class="product_price"><b>6 257 </b><span>грн.</span></button>
+										<p class="currency">756 $</p>
+									</div>
+								</article>
+								<article class="product">
+									<div class="product_width">
+										<img src="img/tab_1_img_2.png" alt="">
+										<p class="stock_description">Уникальное снижение цены на винчестер 200 GB!</p>
+										<a href="#" class="product_name">Samsung HD203WI</a>
+										<p class="old_price">754 грн.</p>
+										<button class="product_price"><b>599 </b><span>грн.</span></button>
+										<p class="currency">86 $</p>
+									</div>
+								</article>
+								<article class="product">
+									<div class="product_width">
+										<img src="img/tab_1_img_3.png" alt="">
+										<p class="stock_description">При покурке 5 камер и более - скидка 10%</p>
+										<a href="#" class="product_name">Vision Hi-Tech VB60CSHR</a>
+										<p class="old_price">1 754 грн.</p>
+										<button class="product_price"><b>1 599 </b><span>грн.</span></button>
+										<p class="currency">206 $</p>
+									</div>
+								</article>
+								<article class="product">
+									<div class="product_width">
+										<img src="img/tab_1_img_4.png" alt="">
+										<p class="stock_description">По европейской цене!</p>
+										<a href="#" class="product_name">Apple iMac 27" (Z0GF)</a>
+										<p class="old_price">24 754 грн.</p>
+										<button class="product_price"><b>23 399 </b><span>грн.</span></button>
+										<p class="currency">3 049 $</p>
+									</div>	
+								</article>
+								<article class="product">
+									<div class="product_width">
+										<img src="img/tab_1_img_5.png" alt="">
+										<p class="stock_description">Скидка 25%</p>
+										<a href="#" class="product_name">Видеокарта MSI N9800GT</a>
+										<p class="old_price">1 754 грн.</p>
+										<button class="product_price"><b>1 434 </b><span>грн.</span></button>
+										<p class="currency">246 $</p>
+									</div>
+								</article>
+							</div>	
+						</div>
+					</div>
+				</div>	
 				<div class="tab_2 tab">2</div>
 				<div class="tab_3 tab">3</div>
 				<div class="tab_4 tab">4</div>	
@@ -171,5 +297,8 @@
 		<article></article>
 		<article></article>
 	</main>
+<!--[if !IE]><!-->
+<script>if(/*@cc_on!@*/false){document.documentElement.className+=' ie10';}</script>
+<!--<![endif]-->
 </body>
 </html>
